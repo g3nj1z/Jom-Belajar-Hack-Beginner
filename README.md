@@ -16,11 +16,15 @@ The following are hardware and software recommendations:
     - > 4 GB RAM
 
 # Setup
-1. After you downloaded [Kali Linux](https://kali.download/virtual-images/kali-2022.2/kali-linux-2022.2-vmware-amd64.7z) and [VMware](https://www.vmware.com/go/getworkstation-win) with using [key](ZF3R0-FHED2-M80TY-8QYGC-NPKYF). Import them in test
-2. Configure test
-   i.
-3. Start the test
-4. Start the test
+1. After you downloaded [Kali Linux](https://kali.download/virtual-images/kali-2022.2/kali-linux-2022.2-vmware-amd64.7z) and [VMware](https://www.vmware.com/go/getworkstation-win) with using [key](ZF3R0-FHED2-M80TY-8QYGC-NPKYF). 
+2. Extract Kali Linux and open a Virtual Machine, then import Kali-Linux-2022.2-vmware-amd64 as Virtual Machine
+2. Configure virtual machine settings
+   i. Allocated 4096 MB for memory.
+   ii. Allocated 4 processor cores.
+3. Power on Kali Linux and choose I Copied It.
+4. Login with credentials 
+    i. user: kali
+    ii: password: kali
 5. You are now ready to start with the challenges.
 
 # Workshops

@@ -2,6 +2,12 @@
 
 ## Please clone this repository on 10 August 2022
 
+# Main Sponsors
+The following list is our main sponsors for this workshop
+- GetCTO.asia
+- Tarsoft.co
+- Tenang Komuniti
+
 # How to start with Web Pentesting?
 We use two platform with all you need here:
 - [Portswigger Academy](https://portswigger.net/web-security)
@@ -37,9 +43,3 @@ The following table is used to as reference for the workshop
 
 # Solutions
 In the case you are get stuck with a challenge, see the <wiki> for hints
-
-# Main Sponsors
-The following list is our main sponsors for this workshop
-- GetCTO.asia
-- Tarsoft.co
-- Tenang Komuniti

@@ -1,6 +1,6 @@
 # Cross-site request forgery (CSRF)
 
-## CSRF vulnerability with no defenses
+## [CSRF vulnerability with no defenses](https://portswigger.net/web-security/csrf/lab-no-defenses)
 
 This lab's email change functionality is vulnerable to CSRF.
 

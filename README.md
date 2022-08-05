@@ -16,7 +16,7 @@ The following are hardware and software recommendations:
     - > 4 GB RAM
 
 # Setup
-1. After you downloaded VMware(https://www.vmware.com/go/getworkstation-win) key(ZF3R0-FHED2-M80TY-8QYGC-NPKYF) and Kali Linux(https://kali.download/virtual-images/kali-2022.2/kali-linux-2022.2-vmware-amd64.7z). Import them in test
+1. After you downloaded [VMware](https://www.vmware.com/go/getworkstation-win) [key](ZF3R0-FHED2-M80TY-8QYGC-NPKYF) and [Kali Linux](https://kali.download/virtual-images/kali-2022.2/kali-linux-2022.2-vmware-amd64.7z). Import them in test
 2. Configure test
    i.
 3. Start the test

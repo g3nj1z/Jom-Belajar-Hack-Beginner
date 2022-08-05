@@ -7,3 +7,9 @@ This lab contains an SQL injection vulnerability in the product category filter.
 SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 
 To solve the lab, perform an SQL injection attack that causes the application to display details of all products in any category, both released and unreleased.
+
+## [SQL injection vulnerability allowing login bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+
+This lab contains an SQL injection vulnerability in the login function.
+
+To solve the lab, perform an SQL injection attack that logs in to the application as the administrator user.

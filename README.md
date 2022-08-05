@@ -40,6 +40,6 @@ In the case you are get stuck with a challenge, see the <wiki> for hints
 
 # Main Sponsors
 The following list is our main sponsors for this workshop
-GetCTO.asia
-Tarsoft.co
-Tenang Komuniti
+    GetCTO.asia
+    Tarsoft.co
+    Tenang Komuniti

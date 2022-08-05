@@ -1,6 +1,6 @@
 # OS command injection
 
-## OS command injection, simple case
+## [OS command injection, simple case](https://portswigger.net/web-security/os-command-injection/lab-simple)
 
 This lab contains an OS command injection vulnerability in the product stock checker.
 

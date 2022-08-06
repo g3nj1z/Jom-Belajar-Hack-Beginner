@@ -140,3 +140,45 @@
 3. Review the URL and observe that the transcripts are text files assigned a filename containing an incrementing number.
 3. Change the filename to 1.txt and review the text. Notice a password within the chat transcript.
 4. Return to the main lab page and log in using the stolen credentials.
+
+## Directory Traversal
+
+## File path traversal, simple case
+1. Use Burp Suite to intercept and modify a request that fetches a product image.
+2. Modify the filename parameter, giving it the value:
+
+    `../../../etc/passwd`
+3.Observe that the response contains the contents of the /etc/passwd file.
+
+## File path traversal, traversal sequences blocked with absolute path bypass
+1. Use Burp Suite to intercept and modify a request that fetches a product image.
+2. Modify the filename parameter, giving it the value /etc/passwd.
+3. Observe that the response contains the contents of the /etc/passwd file.
+
+## File path traversal, traversal sequences stripped non-recursively
+1. Use Burp Suite to intercept and modify a request that fetches a product image.
+2. Modify the filename parameter, giving it the value:
+
+    `....//....//....//etc/passwd`
+3. Observe that the response contains the contents of the /etc/passwd file.
+
+## File path traversal, traversal sequences stripped with superfluous URL-decode
+1. Use Burp Suite to intercept and modify a request that fetches a product image.
+2. Modify the filename parameter, giving it the value:
+
+    `..%252f..%252f..%252fetc/passwd`
+3. Observe that the response contains the contents of the /etc/passwd file.
+
+## File path traversal, validation of start of path
+1. Use Burp Suite to intercept and modify a request that fetches a product image.
+2. Modify the filename parameter, giving it the value:
+
+    `/var/www/images/../../../etc/passwd`
+3. Observe that the response contains the contents of the /etc/passwd file.
+
+## File path traversal, validation of file extension with null byte bypass
+1. Use Burp Suite to intercept and modify a request that fetches a product image.
+2. Modify the filename parameter, giving it the value:
+
+    `../../../etc/passwd%00.png`
+3. Observe that the response contains the contents of the /etc/passwd file.

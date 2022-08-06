@@ -73,7 +73,7 @@ We use two platform with all you need here:
 # Setup
 The following are how to setup for our workshop labs
 - [Kali Linux](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/kalilinux.md)
-- [Portswigger](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/portswiggeracademy.md)
+- [Portswigger Academy](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/portswiggeracademy.md)
 - [bWapp](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/bwapp.md)
 - [DVWA](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/dvwa.md)
 

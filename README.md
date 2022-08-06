@@ -48,6 +48,13 @@ The following are hardware and software recommendations:
     - 25 GB of storage on your hard drive
     - > 4 GB RAM
 
+# Setup
+The following are how to setup for our workshop labs
+- [Kali Linux](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/kalilinux.md)
+- [Portswigger](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/portswiggeracademy.md)
+- [bWapp](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/bwapp.md)
+- [DVWA](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/dvwa.md)
+
 # Workshops
 The following table is used to as reference for the workshop
 

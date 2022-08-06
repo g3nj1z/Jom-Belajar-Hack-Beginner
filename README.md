@@ -20,10 +20,21 @@ Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission o
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
 | 09:00 - 09:15 | Workshop Registration | - | - |
-| 09:15 - 09:45 | Icebreaking Session | - | - |
+| 09:15 - 09:45 | Icebreaking Session | - | Irfan |
+| 09:45 - 10:00 | Introdution to Web App Pentesting | - | Naqib |
+| 10:00 - 11:30 | topik 1 | 1.5 | Naqib |
+| 11:30 - 12:30 | topik 2 | 1.5 | Irfan |
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
+| 14:00 - 15:30 | topik 3 | 1.5 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
+| 14:00 - 15:30 | topik 4 | 1.5 | Naqib |
 | 17:00 - 17:30 | End of Day 1 | - | - |
+
+SQLI naqib
+XSS naqib
+CSRF irfan
+OS irfan
+Directory traversal naqib
 
 ## Day 2
 
@@ -34,6 +45,16 @@ Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission o
 | 15:30 - 16:00 | Tea break and networking session | - | - |
 | 16:45 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
+
+access control vulns irfan
+break 5
+topik
+break 5
+ssti irfan
+break 5
+file upload vulns naqib
+break 5
+information disclosure irfan
 
 # How to start with Web Pentesting?
 We use two platform with all you need here:

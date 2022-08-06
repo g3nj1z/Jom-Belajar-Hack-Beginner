@@ -12,7 +12,7 @@ Tarsoft Sdn Bhd is an HRDF approved centre for SBL scheme training and therefore
 Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission of Malaysia, Registration No: 202201000789 (1446486-W) where they lead the branding of PARC Academy.
 
 # Workshop Tentative Schedule
-The following links is used to as test project for the workshop
+The following links is used as test project for the workshop.
 
 ## Day 1
 

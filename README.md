@@ -11,7 +11,8 @@ Tarsoft Sdn Bhd is an HRDF approved centre for SBL scheme training and therefore
 ## Tenang Komuniti
 Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission of Malaysia, Registration No: 202201000789 (1446486-W) where they lead the branding of PARC Academy.
 
-# Tentative Schedule
+# Workshop Tentative Schedule
+The following links is used to as test project for the workshop
 
 ## Day 1
 
@@ -20,41 +21,30 @@ Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission o
 | 09:00 - 09:15 | Workshop Registration | - | - |
 | 09:15 - 09:45 | Icebreaking Session | - | Irfan |
 | 09:45 - 10:00 | Introdution to Web App Pentesting | - | Naqib |
-| 10:00 - 11:30 | topik 1 | 1.5 | Naqib |
-| 11:30 - 12:30 | topik 2 | 1.5 | Irfan |
+| 10:00 - 11:30 | [SQL Injection (SQLi)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) | 1.5 | Naqib |
+| 11:30 - 12:00 | [OS command injection](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | 1.0 | Irfan |
+| 12:00 - 12:30 | [Information disclosure](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject8.md) | 0.5 | Irfan |
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
-| 14:00 - 15:30 | topik 3 | 1.5 | Naqib |
+| 14:00 - 15:30 | [Cross-site-scripting (XSS)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject2.md) | 1.5 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
-| 14:00 - 15:30 | topik 4 | 1.5 | Irfan |
+| 16:00 - 16:30 | [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 0.5 | Irfan |
+| 16:30 - 17:00 | test | - | - |
 | 17:00 - 17:30 | End of Day 1 | - | - |
-
-SQLI naqib
-XSS naqib
-CSRF naqib
-OS irfan
-Directory traversal naqib
 
 ## Day 2
 
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
-| 09:00 - 10:30 | topik 5 | - | Irfan |
-| 10:30 - 12:00 | topik 6 | - | Naqib |
+| 09:00 - 10:30 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 1.5 | Irfan |
+| 10:30 - 12:00 | [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject3.md) | 1.5 | Naqib |
 | 12:00 - 12:30 | Kahoot Session | - |  |
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
-| 14:00 - 15:30 | topik 7 | - | Irfan |
-| 14:00 - 15:30 | topik 8 | - | Naqib |
+| 14:00 - 14:30 | [Business logic vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) | 0.5 | Irfan |
+| 14:30 - 15:30 | [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) | 1.0 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
-| 14:00 - 15:30 | topik 9 | - | Irfan |
-| 14:00 - 15:30 | topik 10 | - | Naqib |
+| 16:00 - 16:30 | Access control vulnerability irfan | 0.5 | Irfan |
 | 16:45 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
-
-access control vulns irfan
-ssti irfan
-file upload vulns naqib
-business irfan
-information disclosure irfan
 
 # How to start with Web Pentesting?
 
@@ -76,22 +66,6 @@ The following are how to setup for our workshop labs
 - [Portswigger Academy](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/portswiggeracademy.md)
 - [bWapp](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/bwapp.md)
 - [DVWA](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/dvwa.md)
-
-# Workshops
-The following table is used to as test project for the workshop
-
-| Topic | Credit hour | 
-|--|--|
-| [SQL Injection (SQLi)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) | 1.5 |
-| [Cross-site-scripting (XSS)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject2.md) | 1.5 |
-| [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject3.md) | 1.5 |
-| [OS command injection](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | 1.0 |
-| [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 1.5 |
-| [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 0.5 |
-| [Access control vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 1.0 |
-| [Information disclosure](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject8.md) | 0.5 |
-| [Business logic vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) | 0.5 |
-| [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) | 1.5 |
 
 # Solutions
 In the case you are get stuck with a challenge, see the [solutions](https://github.com/g3nj1z/web-pentest-beginner-workshop/tree/main/Solutions) for hints

@@ -28,8 +28,6 @@ Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission o
 | 14:00 - 15:30 | topik 4 | 1.5 | Irfan |
 | 17:00 - 17:30 | End of Day 1 | - | - |
 
-credit hour akan dipilih
-
 SQLI naqib
 XSS naqib
 CSRF naqib
@@ -52,8 +50,6 @@ Directory traversal naqib
 | 16:45 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
 
-credit hour akan dipilih
-
 access control vulns irfan
 ssti irfan
 file upload vulns naqib
@@ -61,9 +57,6 @@ business irfan
 information disclosure irfan
 
 # How to start with Web Pentesting?
-We use two platform with all you need here:
-- [Portswigger Academy](https://portswigger.net/web-security)
-- [bWAPP](https://sourceforge.net/projects/bwapp/files/bWAPP/)
 
 # Requirements
 The following are hardware and software recommendations:
@@ -72,6 +65,10 @@ The following are hardware and software recommendations:
     - Oracle VirtualBox / VMware Workstation (in a recent version)
     - 25 GB of storage on your hard drive
     - > 4 GB RAM
+
+We use two platform with all you need here:
+- [Portswigger Academy](https://portswigger.net/web-security)
+- [bWAPP](https://sourceforge.net/projects/bwapp/files/bWAPP/)
 
 # Setup
 The following are how to setup for our workshop labs

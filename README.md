@@ -83,18 +83,18 @@ The following are how to setup for our workshop labs
 # Workshops
 The following table is used to as reference for the workshop
 
-| What | Where | When | Slides | Link |
-|--|--|--|--|--|
-| SQL Injection (SQLi) | test | test | test | [Test Project 1](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) |
-| Cross-site-scripting (XSS) | test | test | test | [Test Project 2](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject2.md) |
-| Cross-site request forgery (CSRF) | test | test | test | [Test Project 3](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject3.md) |
-| OS command injection | test | test | test | [Test Project 4](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) |
-| Server side template injection (SSTI) | test | test | test | [Test Project 5](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) |
-| Directory traversal | test | test | test | [Test Project 6](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) |
-| Access control vulnerability | test | test | test | [Test Project 7](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) |
-| Information disclosure | test | test | test | [Test Project 8](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject8.md) |
-| Business logic vulnerability | test | test | test | [Test Project 9](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) |
-| File upload vulnerability | test | test | test | [Test Project 10](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) |
+| Topic | Credit hour | 
+|--|--|
+| [SQL Injection (SQLi)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) | 1.5 |
+| [Cross-site-scripting (XSS)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject2.md) | 1.5 |
+| [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject3.md) | 1.5 |
+| [OS command injection](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | test |
+| [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 1.5 |
+| [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | test |
+| [Access control vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | test |
+| [Information disclosure](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject8.md) | 0.5 |
+| [Business logic vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) | 0.5 |
+| [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) | 1.5 |
 
 # Solutions
 In the case you are get stuck with a challenge, see the [solutions](https://github.com/g3nj1z/web-pentest-beginner-workshop/tree/main/Solutions) for hints

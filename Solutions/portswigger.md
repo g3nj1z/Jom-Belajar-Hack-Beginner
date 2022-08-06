@@ -11,5 +11,7 @@
     `email=x||ping+-c+10+127.0.0.1||`
 3. Observe that the response takes 10 seconds to return.
 
+## Blind OS command injection with output redirection
+
 
 

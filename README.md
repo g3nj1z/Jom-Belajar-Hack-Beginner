@@ -81,7 +81,7 @@ The following are how to setup for our workshop labs
 - [DVWA](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/dvwa.md)
 
 # Workshops
-The following table is used to as reference for the workshop
+The following table is used to as test project for the workshop
 
 | Topic | Credit hour | 
 |--|--|

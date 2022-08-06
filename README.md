@@ -88,7 +88,7 @@ The following table is used to as test project for the workshop
 | [SQL Injection (SQLi)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) | 1.5 |
 | [Cross-site-scripting (XSS)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject2.md) | 1.5 |
 | [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject3.md) | 1.5 |
-| [OS command injection](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | test |
+| [OS command injection](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | 0.5-1.0 |
 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 1.5 |
 | [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 0.5 |
 | [Access control vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 0.5-1.0 |

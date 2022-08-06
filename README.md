@@ -66,7 +66,7 @@ The following table is used to as reference for the workshop
 
 | What | Where | When | Slides | Link |
 |--|--|--|--|--|
-| SQL Injection | test | test | test | [Test Projects/TestProject1.md](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) |
+| SQL Injection | test | test | test | [Test Project 1](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) |
 
 # Solutions
 In the case you are get stuck with a challenge, see the <wiki> for hints

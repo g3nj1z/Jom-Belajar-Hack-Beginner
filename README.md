@@ -19,20 +19,20 @@ Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission o
 
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
-| 09:00 - 09:15 | Workshop Registration| - | - |
-| 09:15 - 09:45 | Icebreaking Session| - | - |
-| 09:00 - 09:15 | Break and networking session| - | - |
-| 09:00 - 09:15 | Lunch and networking, zuhr prayer| - | - |
+| 09:00 - 09:15 | Workshop Registration | - | - |
+| 09:15 - 09:45 | Icebreaking Session | - | - |
+| 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
+| 15:30 - 16:00 | Tea break and networking session | - | - |
 | 17:00 - 17:30 | End of Day 1 | - | - |
 
 ## Day 2
 
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
-| 09:00 - 09:15 | Workshop Registration| - | - |
-| 09:00 - 09:15 | Break and networking session| - | - |
-| 09:00 - 09:15 | Lunch and networking, zuhr prayer| - | - |
-| 16:45 - 17:00 | Closing Remark| - | - |
+| 09:00 - 09:15 | Workshop Registration | - | - |
+| 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
+| 15:30 - 16:00 | Tea break and networking session | - | - |
+| 16:45 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
 
 # How to start with Web Pentesting?

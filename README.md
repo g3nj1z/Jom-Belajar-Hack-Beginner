@@ -99,4 +99,4 @@ The following table is used to as reference for the workshop
 | File upload vulnerability | test | test | test | [Test Project 10](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) |
 
 # Solutions
-In the case you are get stuck with a challenge, see the [solutions](test) for hints
+In the case you are get stuck with a challenge, see the [solutions](https://github.com/g3nj1z/web-pentest-beginner-workshop/tree/main/Solutions) for hints

@@ -34,7 +34,7 @@ credit hour akan dipilih
 
 SQLI naqib
 XSS naqib
-CSRF irfan
+CSRF naqib
 OS irfan
 Directory traversal naqib
 
@@ -57,7 +57,6 @@ Directory traversal naqib
 credit hour akan dipilih
 
 access control vulns irfan
-topik
 ssti irfan
 file upload vulns naqib
 information disclosure irfan

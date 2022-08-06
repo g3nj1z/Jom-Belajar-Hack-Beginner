@@ -40,9 +40,9 @@ The following links is used to as test project for the workshop
 | 12:00 - 12:30 | Kahoot Session | - |  |
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
 | 14:00 - 14:30 | [Business logic vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) | 0.5 | Irfan |
-| 14:30 - 15:30 | [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) | 1.5 | Naqib |
+| 14:30 - 15:30 | [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) | 1.0 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
-| 16:00 - 16:30 | [Access control vulnerability irfan](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 0.5 | Irfan |
+| 16:00 - 16:30 | [Access control vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 0.5 | Irfan |
 | 16:30 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
 

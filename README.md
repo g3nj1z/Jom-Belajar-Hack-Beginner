@@ -59,6 +59,7 @@ The following are hardware and software recommendations:
 We use two platform with all you need here:
 - [Portswigger Academy](https://portswigger.net/web-security)
 - [bWAPP](https://sourceforge.net/projects/bwapp/files/bWAPP/)
+- [DVWA](https://github.com/digininja/DVWA)
 
 # Setup
 The following are how to setup for our workshop labs

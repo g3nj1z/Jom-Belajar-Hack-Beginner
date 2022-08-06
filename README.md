@@ -66,7 +66,7 @@ The following table is used to as reference for the workshop
 
 | What | Where | When | Slides | Link |
 |--|--|--|--|--|
-| test | test | test | test | test |
+| SQL Injection | test | test | test | [Test Project 1](Test Projects/TestProject1.md) |
 
 # Solutions
 In the case you are get stuck with a challenge, see the <wiki> for hints

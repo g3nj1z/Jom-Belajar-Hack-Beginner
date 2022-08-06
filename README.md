@@ -59,6 +59,7 @@ credit hour akan dipilih
 access control vulns irfan
 ssti irfan
 file upload vulns naqib
+business irfan
 information disclosure irfan
 
 # How to start with Web Pentesting?

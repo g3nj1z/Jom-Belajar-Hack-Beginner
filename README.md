@@ -27,8 +27,10 @@ Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission o
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
 | 14:00 - 15:30 | topik 3 | 1.5 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
-| 14:00 - 15:30 | topik 4 | 1.5 | Naqib |
+| 14:00 - 15:30 | topik 4 | 1.5 | Irfan |
 | 17:00 - 17:30 | End of Day 1 | - | - |
+
+credit hour akan dipilih
 
 SQLI naqib
 XSS naqib
@@ -40,20 +42,24 @@ Directory traversal naqib
 
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
-| 09:00 - 09:15 | Workshop Registration | - | - |
+| 09:00 - 10:30 | topik 5 | - | Irfan |
+| 10:30 - 12:00 | topik 6 | - | Naqib |
+| 12:00 - 12:30 | Kahoot Session | - |  |
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
+| 14:00 - 15:30 | topik 7 | - | Irfan |
+| 14:00 - 15:30 | topik 8 | - | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
+| 14:00 - 15:30 | topik 9 | - | Irfan |
+| 14:00 - 15:30 | topik 10 | - | Naqib |
 | 16:45 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
 
+credit hour akan dipilih
+
 access control vulns irfan
-break 5
 topik
-break 5
 ssti irfan
-break 5
 file upload vulns naqib
-break 5
 information disclosure irfan
 
 # How to start with Web Pentesting?

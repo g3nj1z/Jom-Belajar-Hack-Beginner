@@ -1,8 +1,6 @@
-# web-pentest-beginner-workshop
+# Please clone this repository on 10 August 2022
 
-## Please clone this repository on 10 August 2022
-
-![enter image description here](https://raw.githubusercontent.com/g3nj1z/web-pentest-beginner-workshop/main/Images/getctoposter.PNG)
+![web-pentest-beginner-workshop](https://raw.githubusercontent.com/g3nj1z/web-pentest-beginner-workshop/main/Images/getctoposter.PNG)
 
 # Sponsored by:
 The following list is our main sponsors for this workshop

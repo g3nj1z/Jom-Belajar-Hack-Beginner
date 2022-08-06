@@ -1,1 +1,1 @@
-Please register Portswigger Academy account [here](https://portswigger.net/web-security).
+Please register your Portswigger Academy account [here](https://portswigger.net/web-security).

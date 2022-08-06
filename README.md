@@ -13,6 +13,28 @@ Tarsoft Sdn Bhd is an HRDF approved centre for SBL scheme training and therefore
 ## Tenang Komuniti
 Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission of Malaysia, Registration No: 202201000789 (1446486-W) where they lead the branding of PARC Academy.
 
+# Tentative Schedule
+
+## Day 1
+
+| Time | Activity | Credit hour | Speaker |
+|--|--|--|--|
+| 09:00 - 09:15 | Workshop Registration| - | - |
+| 09:15 - 09:45 | Icebreaking Session| - | - |
+| 09:00 - 09:15 | Break and networking session| - | - |
+| 09:00 - 09:15 | Lunch and networking, zuhr prayer| - | - |
+| 17:00 - 17:30 | End of Day 1 | - | - |
+
+## Day 2
+
+| Time | Activity | Credit hour | Speaker |
+|--|--|--|--|
+| 09:00 - 09:15 | Workshop Registration| - | - |
+| 09:00 - 09:15 | Break and networking session| - | - |
+| 09:00 - 09:15 | Lunch and networking, zuhr prayer| - | - |
+| 16:45 - 17:00 | Closing Remark| - | - |
+| 17:00 - 17:30 | Workshop Completion | - | - |
+
 # How to start with Web Pentesting?
 We use two platform with all you need here:
 - [Portswigger Academy](https://portswigger.net/web-security)

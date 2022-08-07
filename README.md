@@ -47,7 +47,10 @@ The following links is used as test project for the workshop.
 | 16:30 - 17:00 | Closing Remark | - | - |
 | 17:00 - 17:30 | Workshop Completion | - | - |
 
-# How to start with Web Pentesting?
+# What you will learn from this workshop?
+Penetration testing, also known as Pen Test, is the most common technique for testing the security of web applications. Web Application Penetration Testing involves simulating internal or external unauthorised attacks to gain access to sensitive data.
+
+With a two-day intensive workshop, we will go from "I don't even know how to install it" to actually understanding web application pentest. You will study and practise Web Pentest across multiple modules. Using Portswigger, bWapp and DVWA labs, we will conduct live pentests and provide step-by-step instruction.
 
 # Requirements
 The following are hardware and software recommendations:

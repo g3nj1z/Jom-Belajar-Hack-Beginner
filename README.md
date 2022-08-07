@@ -6,6 +6,7 @@
 The following list is our main sponsors for this workshop
 
 ## [Tarsoft.co](https://tarsoft.co/)
+![tarsoft](https://raw.githubusercontent.com/g3nj1z/web-pentest-beginner-workshop/main/Images/Tarsoft.PNG)
 Tarsoft Sdn Bhd is an HRDF approved centre for SBL scheme training and therefore all their certification trainings and workshops are HRDF claimable under the Skim Bantuan Latihan (SBL Scheme and SBL-Khas), subject to prior application to HRDF by the employers and PSMB’s approval. For training under the SBL-Khas Program, fees will be paid by PSMB to their training centre on behalf of employers based on claims we submit upon completion of training. No upfront payment is required. All of their training classes are HRDF claimable.
 
 ## [Tenang Komuniti](https://rc.my/)

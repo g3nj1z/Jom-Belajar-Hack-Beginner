@@ -9,6 +9,7 @@ The following list is our main sponsors for this workshop
 Tarsoft Sdn Bhd is an HRDF approved centre for SBL scheme training and therefore all their certification trainings and workshops are HRDF claimable under the Skim Bantuan Latihan (SBL Scheme and SBL-Khas), subject to prior application to HRDF by the employers and PSMB’s approval. For training under the SBL-Khas Program, fees will be paid by PSMB to their training centre on behalf of employers based on claims we submit upon completion of training. No upfront payment is required. All of their training classes are HRDF claimable.
 
 ## [Tenang Komuniti](https://rc.my/)
+![Tenang-Komuniti](https://rc.my/assets/img/logo.png)
 Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission of Malaysia, Registration No: 202201000789 (1446486-W) where they lead the branding of PARC Academy.
 
 # Workshop Tentative Schedule

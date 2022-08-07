@@ -56,7 +56,7 @@ The following are hardware and software recommendations:
     - 25 GB of storage on your hard drive
     - > 4 GB RAM
 
-We use two platform with all you need here:
+We use three platform with all you need here:
 - [Portswigger Academy](https://portswigger.net/web-security)
 - [bWAPP](https://sourceforge.net/projects/bwapp/files/bWAPP/)
 - [DVWA](https://github.com/digininja/DVWA)

@@ -2,8 +2,8 @@
 
 - [OS Command Injection](#OS-Command-Injection)
 - [Information disclosure](#Information-disclosure)
-- [Access control vulnerabilities](Access-control-vulnerabilities)
-- [Directory Traversal](Directory-Traversal)
+- [Access control vulnerabilities](#Access-control-vulnerabilities)
+- [Directory Traversal](#Directory-Traversal)
 
 # OS Command Injection
 

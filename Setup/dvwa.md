@@ -1,4 +1,4 @@
-While there are various versions of DVWA around, the only supported version is the latest source from the official GitHub repository. You can either clone it from the repo:
+# Git clone
 
 ```
 git clone https://github.com/digininja/DVWA.git

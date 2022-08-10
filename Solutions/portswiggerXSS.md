@@ -29,7 +29,7 @@ DOM XSS in document.write sink using source location.search
 2. Right-click and inspect the element, and observe that your random string has been placed inside an img src attribute.
 3. Break out of the img attribute by searching for:
 
-  {"><svg onload=alert(1)>}
+  _"><svg onload=alert(1)>_
 
 DOM XSS in document.write sink using source location.search inside a select element
 

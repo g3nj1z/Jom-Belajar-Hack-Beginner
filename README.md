@@ -33,7 +33,7 @@ The following links is used as test project for the workshop.
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
 | 14:00 - 15:30 | [Cross-site-scripting (XSS)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject4.md) | 1.5 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |
-| 16:00 - 16:30 | [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 0.5 | Irfan |
+| 16:00 - 16:30 | [Directory traversal](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject5.md) | 0.5 | Naqib |
 | 16:30 - 17:00 | Game Session | - | Amirul |
 | 17:00 - 17:30 | End of Day 1 | - | - |
 

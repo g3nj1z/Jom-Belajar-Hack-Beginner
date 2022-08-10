@@ -29,7 +29,7 @@ DOM XSS in document.write sink using source location.search
 2. Right-click and inspect the element, and observe that your random string has been placed inside an img src attribute.
 3. Break out of the img attribute by searching for:
 
-  _"><svg onload=alert(1)>_
+  "><svg onload=alert(1)>
 
 DOM XSS in document.write sink using source location.search inside a select element
 
@@ -45,7 +45,7 @@ DOM XSS in innerHTML sink using source location.search
 
 1. Enter the following into the into the search box:
 
-  {<img src=1 onerror=alert(1)>}
+  <img src=1 onerror=alert(1)>
 2. Click "Search".
 
 The value of the src attribute is invalid and throws an error. This triggers the onerror event handler, which then calls the alert() function. As a result, the payload is executed whenever the user's browser attempts to load the page containing your malicious post.
@@ -65,7 +65,7 @@ DOM XSS in jQuery selector sink using a hashchange event
 2. From the lab banner, open the exploit server.
 3. In the Body section, add the following malicious iframe:
 
-  {<iframe src="https://YOUR-LAB-ID.web-security-academy.net/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>}
+  <iframe src="https://YOUR-LAB-ID.web-security-academy.net/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>
 4. Store the exploit, then click View exploit to confirm that the print() function is called.
 5. Go back to the exploit server and click Deliver to victim to solve the lab.
 
@@ -91,6 +91,6 @@ Stored DOM XSS
 
 1. Post a comment containing the following vector:
 
-  {<><img src=1 onerror=alert(1)>}
+  <><img src=1 onerror=alert(1)>
 
 In an attempt to prevent XSS, the website uses the JavaScript replace() function to encode angle brackets. However, when the first argument is a string, the function only replaces the first occurrence. We exploit this vulnerability by simply including an extra set of angle brackets at the beginning of the comment. These angle brackets will be encoded, but any subsequent angle brackets will be unaffected, enabling us to effectively bypass the filter and inject HTML.

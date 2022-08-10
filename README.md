@@ -1,4 +1,4 @@
-# Update: Please clone this repository on 11.59 pm, 10 August 2022
+# Update: Please clone this repository on 11 August 2022
 
 ![web-pentest-beginner-workshop](https://raw.githubusercontent.com/g3nj1z/web-pentest-beginner-workshop/main/Images/getctoposter.PNG)
 

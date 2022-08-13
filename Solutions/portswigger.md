@@ -458,16 +458,42 @@ blog-post-author-display=user.name}}{{7*7}}
 # Business logic vulnerabilities
 
 ## Excessive trust in client-side controls
-test
+1. With Burp running, log in and attempt to buy the leather jacket. The order is rejected because you don't have enough store credit.
+2. In Burp, go to "Proxy" > "HTTP history" and study the order process. Notice that when you add an item to your cart, the corresponding request contains a price parameter. Send the POST /cart request to Burp Repeater.
+3. In Burp Repeater, change the price to an arbitrary integer and send the request. Refresh the cart and confirm that the price has changed based on your input.
+4. Repeat this process to set the price to any amount less than your available store credit.
+5. Complete the order to solve the lab.
 
 ## High-level logic vulnerability
-test
+1. With Burp running, log in and add a cheap item to your cart.
+2. In Burp, go to "Proxy" > "HTTP history" and study the corresponding HTTP messages. Notice that the quantity is determined by a parameter in the POST /cart request.
+3. Go to the "Intercept" tab and turn on interception. Add another item to your cart and go to the intercepted POST /cart request in Burp.
+4. Change the quantity parameter to an arbitrary integer, then forward any remaining requests. Observe that the quantity in the cart was successfully updated based on your input.
+5. Repeat this process, but request a negative quantity this time. Check that this is successfully deducted from the cart quantity.
+6.  a suitable negative quantity to remove more units from the cart than it currently contains. Confirm that you have successfully forced the cart to contain a negative quantity of the product. Go to your cart and notice that the total price is now also a negative amount.
+7. Add the leather jacket to your cart as normal. Add a suitable negative quantity of the another item to reduce the total price to less than your remaining store credit.
+8. Place the order to solve the lab.
 
 ## Inconsistent security controls
-test
+1. Open the lab then go to the "Target" > "Site map" tab in Burp. Right-click on the lab domain and select "Engagement tools" > "Discover content" to open the content discovery tool.
+2. Click "Session is not running" to start the content discovery. After a short while, look at the "Site map" tab in the dialog. Notice that it discovered the path /admin.
+3. Try and browse to /admin. Although you don't have access, the error message indicates that DontWannaCry users do.
+4. Go to the account registration page. Notice the message telling DontWannaCry employees to use their company email address. Register with an arbitrary email address in the format:
+
+`anything@your-email-id.web-security-academy.net`
+5. You can find your email domain name by clicking the "Email client" button.
+
+6. Go to the email client and click the link in the confirmation email to complete the registration.
+7. Log in using your new account and go to the "My account" page. Notice that you have the option to change your email address. Change your email address to an arbitrary @dontwannacry.com address.
+8. Notice that you now have access to the admin panel, where you can delete Carlos to solve the lab.
 
 ## Flawed enforcement of business rules
-test
+1. Log in and notice that there is a coupon code, NEWCUST5.
+2. At the bottom of the page, sign up to the newsletter. You receive another coupon code, SIGNUP30.
+3. Add the leather jacket to your cart.
+4. Go to the checkout and apply both of the coupon codes to get a discount on your order.
+5. Try applying the codes more than once. Notice that if you enter the same code twice in a row, it is rejected because the coupon has already been applied. 6. However, if you alternate between the two codes, you can bypass this control.
+7. Reuse the two codes enough times to reduce your order total to less than your remaining store credit. Complete the order to solve the lab.
 
 # Access control vulnerabilities
 

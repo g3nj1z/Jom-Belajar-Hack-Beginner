@@ -4,7 +4,7 @@
 - [Information disclosure](#Information-disclosure)
 - [Access control vulnerabilities](#Access-control-vulnerabilities)
 - [Directory Traversal](#Directory-Traversal)
-- [SQL Injection](SQL-Injection)
+- [SQL Injection](#SQL-Injection)
 
 # OS Command Injection
 

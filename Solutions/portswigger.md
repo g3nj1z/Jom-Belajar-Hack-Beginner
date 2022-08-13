@@ -2,11 +2,12 @@
 
 - [OS Command Injection](#OS-Command-Injection)
 - [Information disclosure](#Information-disclosure)
-- [Access control vulnerabilities](#Access-control-vulnerabilities)
 - [Directory Traversal](#Directory-Traversal)
 - [SQL Injection](#SQL-Injection)
 - [Cross-site scripting](#XSS)
 - [Server side template injection](#SSTI)
+- [Business logic vulnerabilities](#Business-logic-vulnerabilities)
+- [Access control vulnerabilities](#Access-control-vulnerabilities)
 
 # OS Command Injection
 
@@ -89,68 +90,6 @@
 5. Go back to the lab and log in to the administrator account using the leaked password.
 6. To solve the lab, open the admin interface and delete Carlos's account.
 
-# Access control vulnerabilities
-
-## Unprotected admin functionality
-1. Go to the lab and view robots.txt by appending /robots.txt to the lab URL. Notice that the Disallow line discloses the path to the admin panel.
-2. In the URL bar, replace /robots.txt with /administrator-panel to load the admin panel.
-3. Delete carlos.
-
-## Unprotected admin functionality with unpredictable URL
-1. Review the lab home page's source using Burp Suite or your web browser's developer tools.
-2. Observe that it contains some JavaScript that discloses the URL of the admin panel.
-3. Load the admin panel and delete carlos.
-
-## User role controlled by request parameter
-1. Browse to /admin and observe that you can't access the admin panel.
-2. Browse to the login page.
-3. In Burp Proxy, turn interception on and enable response interception.
-4. Complete and submit the login page, and forward the resulting request in Burp.
-5. Observe that the response sets the cookie Admin=false. Change it to Admin=true.
-6. Load the admin panel and delete carlos.
-
-## User role can be modified in user profile
-1. Log in using the supplied credentials and access your account page.
-2. Use the provided feature to update the email address associated with your account.
-3. Observe that the response contains your role ID.
-4. Send the email submission request to Burp Repeater, add "roleid":2 into the JSON in the request body, and resend it.
-5. Observe that the response shows your roleid has changed to 2.
-6. Browse to /admin and delete carlos.
-
-## User ID controlled by request parameter
-1. Log in using the supplied credentials and go to your account page.
-2. Note that the URL contains your username in the "id" parameter.
-3. Send the request to Burp Repeater.
-4. Change the "id" parameter to carlos.
-5. Retrieve and submit the API key for carlos.
-
-## User ID controlled by request parameter, with unpredictable user IDs
-1. Find a blog post by carlos.
-2. Click on carlos and observe that the URL contains his user ID. Make a note of this ID.
-3. Log in using the supplied credentials and access your account page.
-4. Change the "id" parameter to the saved user ID.
-5. Retrieve and submit the API key.
-
-## User ID controlled by request parameter with data leakage in redirect
-1. Log in using the supplied credentials and access your account page.
-2. Send the request to Burp Repeater.
-3. Change the "id" parameter to carlos.
-4. Observe that although the response is now redirecting you to the home page, it has a body containing the API key belonging to carlos.
-5. Submit the API key.
-
-## User ID controlled by request parameter with password disclosure
-1. Log in using the supplied credentials and access the user account page.
-2. Change the "id" parameter in the URL to administrator.
-3. View the response in Burp and observe that it contains the administrator's password.
-4. Log in to the administrator account and delete carlos.
-
-## Insecure direct object references
-1. Select the Live chat tab.
-2. Send a message and then select View transcript.
-3. Review the URL and observe that the transcripts are text files assigned a filename containing an incrementing number.
-3. Change the filename to 1.txt and review the text. Notice a password within the chat transcript.
-4. Return to the main lab page and log in using the stolen credentials.
-
 ## Directory Traversal
 
 ## File path traversal, simple case
@@ -192,20 +131,6 @@
 
     `../../../etc/passwd%00.png`
 3. Observe that the response contains the contents of the /etc/passwd file.
-
-# Business logic vulnerabilities
-
-## Excessive trust in client-side controls
-test
-
-## High-level logic vulnerability
-test
-
-## Inconsistent security controls
-test
-
-## Flawed enforcement of business rules
-test
 
 # SQL Injection
 
@@ -529,3 +454,79 @@ blog-post-author-display=user.name}}{{7*7}}
 `blog-post-author-display=user.name}}{%25+import+os+%25}{{os.system('rm%20/home/carlos/morale.txt')`
 
 10. Reload the page containing your comment to execute the template and solve the lab.
+
+# Business logic vulnerabilities
+
+## Excessive trust in client-side controls
+test
+
+## High-level logic vulnerability
+test
+
+## Inconsistent security controls
+test
+
+## Flawed enforcement of business rules
+test
+
+# Access control vulnerabilities
+
+## Unprotected admin functionality
+1. Go to the lab and view robots.txt by appending /robots.txt to the lab URL. Notice that the Disallow line discloses the path to the admin panel.
+2. In the URL bar, replace /robots.txt with /administrator-panel to load the admin panel.
+3. Delete carlos.
+
+## Unprotected admin functionality with unpredictable URL
+1. Review the lab home page's source using Burp Suite or your web browser's developer tools.
+2. Observe that it contains some JavaScript that discloses the URL of the admin panel.
+3. Load the admin panel and delete carlos.
+
+## User role controlled by request parameter
+1. Browse to /admin and observe that you can't access the admin panel.
+2. Browse to the login page.
+3. In Burp Proxy, turn interception on and enable response interception.
+4. Complete and submit the login page, and forward the resulting request in Burp.
+5. Observe that the response sets the cookie Admin=false. Change it to Admin=true.
+6. Load the admin panel and delete carlos.
+
+## User role can be modified in user profile
+1. Log in using the supplied credentials and access your account page.
+2. Use the provided feature to update the email address associated with your account.
+3. Observe that the response contains your role ID.
+4. Send the email submission request to Burp Repeater, add "roleid":2 into the JSON in the request body, and resend it.
+5. Observe that the response shows your roleid has changed to 2.
+6. Browse to /admin and delete carlos.
+
+## User ID controlled by request parameter
+1. Log in using the supplied credentials and go to your account page.
+2. Note that the URL contains your username in the "id" parameter.
+3. Send the request to Burp Repeater.
+4. Change the "id" parameter to carlos.
+5. Retrieve and submit the API key for carlos.
+
+## User ID controlled by request parameter, with unpredictable user IDs
+1. Find a blog post by carlos.
+2. Click on carlos and observe that the URL contains his user ID. Make a note of this ID.
+3. Log in using the supplied credentials and access your account page.
+4. Change the "id" parameter to the saved user ID.
+5. Retrieve and submit the API key.
+
+## User ID controlled by request parameter with data leakage in redirect
+1. Log in using the supplied credentials and access your account page.
+2. Send the request to Burp Repeater.
+3. Change the "id" parameter to carlos.
+4. Observe that although the response is now redirecting you to the home page, it has a body containing the API key belonging to carlos.
+5. Submit the API key.
+
+## User ID controlled by request parameter with password disclosure
+1. Log in using the supplied credentials and access the user account page.
+2. Change the "id" parameter in the URL to administrator.
+3. View the response in Burp and observe that it contains the administrator's password.
+4. Log in to the administrator account and delete carlos.
+
+## Insecure direct object references
+1. Select the Live chat tab.
+2. Send a message and then select View transcript.
+3. Review the URL and observe that the transcripts are text files assigned a filename containing an incrementing number.
+3. Change the filename to 1.txt and review the text. Notice a password within the chat transcript.
+4. Return to the main lab page and log in using the stolen credentials.

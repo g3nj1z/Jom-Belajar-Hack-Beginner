@@ -39,7 +39,7 @@ The following links is used as test project for the workshop.
 
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
-| 09:00 - 10:30 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 1.5 | Irfan |
+| 09:30 - 10:30 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 1.5 | Irfan |
 | 10:30 - 12:00 | [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 1.5 | Naqib |
 | 12:00 - 12:30 | Kahoot Session | - | Amirul |
 | 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |

@@ -39,10 +39,10 @@ The following links is used as test project for the workshop.
 
 | Time | Activity | Credit hour | Speaker |
 |--|--|--|--|
-| 09:30 - 10:30 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 1.5 | Irfan |
-| 10:30 - 12:00 | [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 1.5 | Naqib |
-| 12:00 - 12:30 | Kahoot Session | - | Amirul |
-| 12:30 - 14:00 | Lunch and networking, zuhr prayer | - | - |
+| 09:30 - 11:00 | [Server side template injection (SSTI)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject6.md) | 1.5 | Irfan |
+| 11:00 - 12:30 | [Cross-site request forgery (CSRF)](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject7.md) | 1.5 | Naqib |
+| 12:30 - 13:00 | Kahoot Session | - | Amirul |
+| 13:00 - 14:00 | Lunch and networking, zuhr prayer | - | - |
 | 14:00 - 14:30 | [Business logic vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject8.md) | 0.5 | Irfan |
 | 14:30 - 15:30 | [File upload vulnerability](https://github.com/g3nj1z/web-pentest-beginner-workshop/blob/main/Test%20Projects/TestProject9.md) | 1.0 | Naqib |
 | 15:30 - 16:00 | Tea break and networking session | - | - |

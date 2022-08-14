@@ -497,17 +497,17 @@ blog-post-author-display=user.name}}{{7*7}}
 
 # Access control vulnerabilities
 
-## Unprotected admin functionality
+## [Unprotected admin functionality](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality)
 1. Go to the lab and view robots.txt by appending /robots.txt to the lab URL. Notice that the Disallow line discloses the path to the admin panel.
 2. In the URL bar, replace /robots.txt with /administrator-panel to load the admin panel.
 3. Delete carlos.
 
-## Unprotected admin functionality with unpredictable URL
+## [Unprotected admin functionality with unpredictable URL](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
 1. Review the lab home page's source using Burp Suite or your web browser's developer tools.
 2. Observe that it contains some JavaScript that discloses the URL of the admin panel.
 3. Load the admin panel and delete carlos.
 
-## User role controlled by request parameter
+## [User role controlled by request parameter](https://portswigger.net/web-security/access-control/lab-user-role-controlled-by-request-parameter)
 1. Browse to /admin and observe that you can't access the admin panel.
 2. Browse to the login page.
 3. In Burp Proxy, turn interception on and enable response interception.
@@ -523,7 +523,7 @@ blog-post-author-display=user.name}}{{7*7}}
 5. Observe that the response shows your roleid has changed to 2.
 6. Browse to /admin and delete carlos.
 
-## User ID controlled by request parameter
+## [User ID controlled by request parameter](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter)
 1. Log in using the supplied credentials and go to your account page.
 2. Note that the URL contains your username in the "id" parameter.
 3. Send the request to Burp Repeater.

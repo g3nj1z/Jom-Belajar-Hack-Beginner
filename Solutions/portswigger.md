@@ -8,6 +8,7 @@
 - [Server side template injection](#SSTI)
 - [Business logic vulnerabilities](#Business-logic-vulnerabilities)
 - [Access control vulnerabilities](#Access-control-vulnerabilities)
+- [Cross site request forgery](#CSRF)
 
 # OS Command Injection
 
@@ -557,7 +558,7 @@ blog-post-author-display=user.name}}{{7*7}}
 3. Change the filename to 1.txt and review the text. Notice a password within the chat transcript.
 4. Return to the main lab page and log in using the stolen credentials.
 
-# CROSS SITE REQUEST FORGERY (CSRF)
+# Cross site request forgery
 
 ## CSRF vulnerability with no defenses
 
